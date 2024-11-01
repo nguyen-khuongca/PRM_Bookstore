@@ -22,5 +22,9 @@ public class TokenManager {
 
     public void clearToken() {
         sharedPreferences.edit().remove(TOKEN_KEY).apply();
+
+    }
+    public void clearAll() {
+        sharedPreferences.edit().clear().apply();
     }
 }
