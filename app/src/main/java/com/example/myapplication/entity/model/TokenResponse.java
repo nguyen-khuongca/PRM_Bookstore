@@ -1,10 +1,9 @@
 package com.example.myapplication.entity.model;
 
 public class TokenResponse {
-        private String token;
+    private String token;
 
-        public String getToken() {
-            return token;
-        }
+    public String getToken() {
+        return token;
     }
-
+}
