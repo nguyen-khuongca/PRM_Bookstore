@@ -5,7 +5,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 
 public class RetrofitClient {
     private static Retrofit retrofit;
-    private static final String BASE_URL = "https://books-app-bdc4b-default-rtdb.asia-southeast1.firebasedatabase.app/";
+    private static final String BASE_URL = "https://bookstore.persiehomeserver.com";
 
     public static Retrofit getRetrofitInstance() {
         if (retrofit == null) {
